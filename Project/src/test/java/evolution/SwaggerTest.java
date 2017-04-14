@@ -5,8 +5,9 @@ import org.junit.Test;
 public class SwaggerTest {
 	@Test
 	public void test() {
-		String projectPath = "/Users/chenli/Desktop/Playground/File/File/src/main/java/evolution";
-		String projectBasePath = "/Users/chenli/Desktop/Playground/File/File/src/main/java";
-//		SwaggerFactory.swaggers(projectPath, projectBasePath, destinationPath);
+		String projectPath = "/Users/chenli/Desktop/Playground/Git/Test_Project/Project/src/main/java/evolution";
+		String projectBasePath = "/Users/chenli/Desktop/Playground/Git/Test_Project/Project/src/main/java";
+		String destinationPath = "/Users/chenli/Desktop/Swagger_Documents";
+		SwaggerFactory.swaggers(projectPath, projectBasePath, destinationPath);
 	}
 }
