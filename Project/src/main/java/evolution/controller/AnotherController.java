@@ -2,6 +2,7 @@ package evolution.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -25,7 +26,12 @@ public class AnotherController {
 	}
 	
 	@RequestMapping(value = "/evolution/7", method = RequestMethod.GET)
-	public void evolution6() {
+	public void evolution7() {
 		
+	}
+	
+	@PostMapping("/evolution/8")
+	public ResponseDto evolution8(@RequestBody RequestDto dto) {
+		return null;
 	}
 }
