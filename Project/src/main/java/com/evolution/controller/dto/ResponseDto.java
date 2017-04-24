@@ -1,4 +1,6 @@
-package evolution.controller.dto;
+package com.evolution.controller.dto;
+
+import evolution.controller.dto.AnyDto;
 
 public class ResponseDto {
 	private String name;

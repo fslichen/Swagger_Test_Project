@@ -20,7 +20,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.evolution</groupId>
-			<artifactId>Swagger_Enterprise</artifactId>
+			<artifactId>Swagger</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->

@@ -1,4 +1,4 @@
-package evolution.controller;
+package com.evolution.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import evolution.controller.dto.RequestDto;
-import evolution.controller.dto.ResponseDto;
-import evolution.controller.dto.TheOtherDto;
+import com.evolution.controller.dto.RequestDto;
+import com.evolution.controller.dto.ResponseDto;
+import com.evolution.controller.dto.TheOtherDto;
 
 @RequestMapping(value = "/app")
 @RestController

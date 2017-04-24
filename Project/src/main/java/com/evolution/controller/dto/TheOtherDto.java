@@ -1,4 +1,4 @@
-package evolution.controller.dto;
+package com.evolution.controller.dto;
 
 public class TheOtherDto {
 	private double gpa;
