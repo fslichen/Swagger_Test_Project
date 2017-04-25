@@ -3,9 +3,6 @@ package com.evolution.controller.dto;
 import java.util.List;
 import java.util.Map;
 
-import evolution.controller.dto.AnotherDto;
-import evolution.controller.dto.TheOtherDto;
-
 public class AnyDto {
 	private int id;
 	private Integer zipCode;

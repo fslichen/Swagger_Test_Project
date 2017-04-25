@@ -2,9 +2,6 @@ package com.evolution.controller.dto;
 
 import java.util.List;
 
-import evolution.controller.dto.AnotherDto;
-import evolution.controller.dto.AnyDto;
-
 public class RequestDto {
 	private String name;
 	private AnyDto anyDto;
