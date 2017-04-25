@@ -12,6 +12,33 @@ public class AnyDto {
 	private double rent;
 	private Double salary;
 	private String gender;
+	private Short age;
+	private long serialNumber;
+	
+	public Short getAge() {
+		return age;
+	}
+
+	public void setAge(Short age) {
+		this.age = age;
+	}
+
+	public long getSerialNumber() {
+		return serialNumber;
+	}
+
+	public void setSerialNumber(long serialNumber) {
+		this.serialNumber = serialNumber;
+	}
+
+	public Map<String, TheOtherDto> getTheOtherDtoMap() {
+		return theOtherDtoMap;
+	}
+
+	public void setTheOtherDtoMap(Map<String, TheOtherDto> theOtherDtoMap) {
+		this.theOtherDtoMap = theOtherDtoMap;
+	}
+
 	private List<String> addresses;
 	private AnotherDto anotherDto;
 	private List<AnotherDto> anotherDtoList;
@@ -84,7 +111,8 @@ public class AnyDto {
 	@Override
 	public String toString() {
 		return "AnyDto [id=" + id + ", zipCode=" + zipCode + ", rent=" + rent + ", salary=" + salary + ", gender="
-				+ gender + ", addresses=" + addresses + ", anotherDto=" + anotherDto + ", anotherDtoList="
-				+ anotherDtoList + ", theOtherDtoMap=" + theOtherDtoMap + "]";
+				+ gender + ", age=" + age + ", serialNumber=" + serialNumber + ", addresses=" + addresses
+				+ ", anotherDto=" + anotherDto + ", anotherDtoList=" + anotherDtoList + ", theOtherDtoMap="
+				+ theOtherDtoMap + "]";
 	}
 }
