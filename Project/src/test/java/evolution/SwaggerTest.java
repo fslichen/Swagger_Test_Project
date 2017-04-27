@@ -16,6 +16,6 @@ public class SwaggerTest {
 	
 	@Test
 	public void testSwagger() {
-		SwaggerFactory.swagger(TheOtherController.class, "/Users/chenli/Desktop/Swagger_Documents/TheOtherController.yml", new DefaultSwagger());
+		SwaggerFactory.swagger(TheOtherController.class, "/Users/chenli/Desktop/Swagger_Documents/TheOtherController.yaml", new DefaultSwagger());
 	}
 }
