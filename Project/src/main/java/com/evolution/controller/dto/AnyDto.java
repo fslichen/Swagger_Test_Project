@@ -3,11 +3,15 @@ package com.evolution.controller.dto;
 import java.util.List;
 import java.util.Map;
 
+import evolution.annotation.Example;
+
 public class AnyDto {
 	private int id;
+	@Example(intValue = 61820)
 	private Integer zipCode;
 	private double rent;
 	private Double salary;
+	@Example("M")
 	private String gender;
 	private Short age;
 	private long serialNumber;
