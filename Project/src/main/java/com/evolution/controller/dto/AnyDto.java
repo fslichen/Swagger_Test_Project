@@ -3,15 +3,15 @@ package com.evolution.controller.dto;
 import java.util.List;
 import java.util.Map;
 
-import evolution.annotation.Example;
+import evolution.annotation.ApiExamples;
 
 public class AnyDto {
 	private int id;
-	@Example(intValue = 61820)
+	@ApiExamples(keys = {"AlphaController.post", "BetaController.post"}, intValues = {61820, 61801})
 	private Integer zipCode;
 	private double rent;
 	private Double salary;
-	@Example("M")
+	@ApiExamples(keys = {"AlphaController.post", "BetaController.post"}, stringValues = {"M", "F"})
 	private String gender;
 	private Short age;
 	private long serialNumber;
