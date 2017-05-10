@@ -9,7 +9,7 @@ import com.evolution.controller.dto.example.properties.AnyDto;
 @RestController
 public class ExamplePropertiesController {
 	@PostMapping("/example/properties/post")
-	public void post(@RequestBody AnyDto anyDto) {
-		
+	public AnyDto post(@RequestBody AnyDto anyDto) {
+		return null;
 	}
 }

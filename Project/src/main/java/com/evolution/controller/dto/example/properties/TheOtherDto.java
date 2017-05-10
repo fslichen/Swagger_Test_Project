@@ -1,6 +1,9 @@
 package com.evolution.controller.dto.example.properties;
 
+import evolution.annotation.ApiExamples;
+
 public class TheOtherDto {
+	@ApiExamples(keys = {"ExamplePropertiesController.post"}, stringValues = {"Illinois"})
 	private String address;
 
 	@Override
